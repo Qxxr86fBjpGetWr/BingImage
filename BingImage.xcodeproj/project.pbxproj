@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378031BD0F1562F8616F0838 /* libPods-BingImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B2ACA981591C22DD358890 /* libPods-BingImage.a */; };
+		AB5C4AB61EBC15790016462A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AB51EBC15790016462A /* main.m */; };
+		AB5C4AB91EBC15790016462A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AB81EBC15790016462A /* AppDelegate.m */; };
+		AB5C4ABC1EBC15790016462A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4ABB1EBC15790016462A /* ViewController.m */; };
+		AB5C4ABF1EBC15790016462A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5C4ABD1EBC15790016462A /* Main.storyboard */; };
+		AB5C4AC11EBC15790016462A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5C4AC01EBC15790016462A /* Assets.xcassets */; };
+		AB5C4AC41EBC15790016462A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5C4AC21EBC15790016462A /* LaunchScreen.storyboard */; };
+		AB5C4ACF1EBC15790016462A /* BingImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4ACE1EBC15790016462A /* BingImageTests.m */; };
+		AB5C4ADA1EBC15790016462A /* BingImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AD91EBC15790016462A /* BingImageUITests.m */; };
+		AB5C4AEE1EBC38D80016462A /* BINetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AED1EBC38D80016462A /* BINetWorkRequest.m */; };
+		AB5C4AF11EBC3DB40016462A /* BIDataServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AF01EBC3DB40016462A /* BIDataServer.m */; };
+		AB5C4AF41EBC404A0016462A /* BIDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AF31EBC404A0016462A /* BIDataBase.m */; };
+		AB5C4AF71EBC449B0016462A /* BIImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AF61EBC449B0016462A /* BIImageModel.m */; };
+		AB5C4AFA1EBC51330016462A /* BIGetBingDataServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AF91EBC51330016462A /* BIGetBingDataServer.m */; };
+		AB5C4AFD1EBC74780016462A /* BICollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AFC1EBC74780016462A /* BICollectionViewLayout.m */; };
+		AB5C4B001EBC79560016462A /* BICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4AFF1EBC79560016462A /* BICollectionViewCell.m */; };
+		AB5C4B031EBCA1850016462A /* BIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4B021EBCA1850016462A /* BIDetailViewController.m */; };
+		AB5C4B061EBCA2B00016462A /* BINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C4B051EBCA2B00016462A /* BINavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5C4ACB1EBC15790016462A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5C4AA91EBC15790016462A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5C4AB01EBC15790016462A;
+			remoteInfo = BingImage;
+		};
+		AB5C4AD61EBC15790016462A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5C4AA91EBC15790016462A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5C4AB01EBC15790016462A;
+			remoteInfo = BingImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37B2ACA981591C22DD358890 /* libPods-BingImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BingImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49045C26DEE2EF77CA337C60 /* Pods-BingImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-BingImage/Pods-BingImage.release.xcconfig"; sourceTree = "<group>"; };
+		89FA8E7FF2C6443147CAF2B4 /* Pods-BingImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BingImage/Pods-BingImage.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5C4AB11EBC15790016462A /* BingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C4AB51EBC15790016462A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB5C4AB71EBC15790016462A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB5C4AB81EBC15790016462A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB5C4ABA1EBC15790016462A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB5C4ABB1EBC15790016462A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB5C4ABE1EBC15790016462A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB5C4AC01EBC15790016462A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5C4AC31EBC15790016462A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5C4AC51EBC15790016462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5C4ACA1EBC15790016462A /* BingImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C4ACE1EBC15790016462A /* BingImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingImageTests.m; sourceTree = "<group>"; };
+		AB5C4AD01EBC15790016462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5C4AD51EBC15790016462A /* BingImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C4AD91EBC15790016462A /* BingImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingImageUITests.m; sourceTree = "<group>"; };
+		AB5C4ADB1EBC15790016462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5C4AEC1EBC38D80016462A /* BINetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BINetWorkRequest.h; sourceTree = "<group>"; };
+		AB5C4AED1EBC38D80016462A /* BINetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BINetWorkRequest.m; sourceTree = "<group>"; };
+		AB5C4AEF1EBC3DB40016462A /* BIDataServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDataServer.h; sourceTree = "<group>"; };
+		AB5C4AF01EBC3DB40016462A /* BIDataServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDataServer.m; sourceTree = "<group>"; };
+		AB5C4AF21EBC404A0016462A /* BIDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDataBase.h; sourceTree = "<group>"; };
+		AB5C4AF31EBC404A0016462A /* BIDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDataBase.m; sourceTree = "<group>"; };
+		AB5C4AF51EBC449B0016462A /* BIImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIImageModel.h; sourceTree = "<group>"; };
+		AB5C4AF61EBC449B0016462A /* BIImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIImageModel.m; sourceTree = "<group>"; };
+		AB5C4AF81EBC51330016462A /* BIGetBingDataServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIGetBingDataServer.h; sourceTree = "<group>"; };
+		AB5C4AF91EBC51330016462A /* BIGetBingDataServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIGetBingDataServer.m; sourceTree = "<group>"; };
+		AB5C4AFB1EBC74780016462A /* BICollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BICollectionViewLayout.h; sourceTree = "<group>"; };
+		AB5C4AFC1EBC74780016462A /* BICollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BICollectionViewLayout.m; sourceTree = "<group>"; };
+		AB5C4AFE1EBC79560016462A /* BICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BICollectionViewCell.h; sourceTree = "<group>"; };
+		AB5C4AFF1EBC79560016462A /* BICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BICollectionViewCell.m; sourceTree = "<group>"; };
+		AB5C4B011EBCA1850016462A /* BIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDetailViewController.h; sourceTree = "<group>"; };
+		AB5C4B021EBCA1850016462A /* BIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDetailViewController.m; sourceTree = "<group>"; };
+		AB5C4B041EBCA2B00016462A /* BINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BINavigationController.h; sourceTree = "<group>"; };
+		AB5C4B051EBCA2B00016462A /* BINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BINavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5C4AAE1EBC15790016462A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378031BD0F1562F8616F0838 /* libPods-BingImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C4AC71EBC15790016462A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C4AD21EBC15790016462A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44FED9A43844E5C4E6ADC4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89FA8E7FF2C6443147CAF2B4 /* Pods-BingImage.debug.xcconfig */,
+				49045C26DEE2EF77CA337C60 /* Pods-BingImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB5C4AA81EBC15790016462A = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AB31EBC15790016462A /* BingImage */,
+				AB5C4ACD1EBC15790016462A /* BingImageTests */,
+				AB5C4AD81EBC15790016462A /* BingImageUITests */,
+				AB5C4AB21EBC15790016462A /* Products */,
+				44FED9A43844E5C4E6ADC4DD /* Pods */,
+				F4A69148C922425BDDE856B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5C4AB21EBC15790016462A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AB11EBC15790016462A /* BingImage.app */,
+				AB5C4ACA1EBC15790016462A /* BingImageTests.xctest */,
+				AB5C4AD51EBC15790016462A /* BingImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5C4AB31EBC15790016462A /* BingImage */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AE71EBC38470016462A /* Controller */,
+				AB5C4AE81EBC38470016462A /* View */,
+				AB5C4AE91EBC38470016462A /* Model */,
+				AB5C4AEA1EBC38470016462A /* DataBase */,
+				AB5C4AEB1EBC38470016462A /* NetWork */,
+				AB5C4AB71EBC15790016462A /* AppDelegate.h */,
+				AB5C4AB81EBC15790016462A /* AppDelegate.m */,
+				AB5C4ABA1EBC15790016462A /* ViewController.h */,
+				AB5C4ABB1EBC15790016462A /* ViewController.m */,
+				AB5C4AF81EBC51330016462A /* BIGetBingDataServer.h */,
+				AB5C4AF91EBC51330016462A /* BIGetBingDataServer.m */,
+				AB5C4ABD1EBC15790016462A /* Main.storyboard */,
+				AB5C4AC01EBC15790016462A /* Assets.xcassets */,
+				AB5C4AC21EBC15790016462A /* LaunchScreen.storyboard */,
+				AB5C4AC51EBC15790016462A /* Info.plist */,
+				AB5C4AB41EBC15790016462A /* Supporting Files */,
+			);
+			path = BingImage;
+			sourceTree = "<group>";
+		};
+		AB5C4AB41EBC15790016462A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AB51EBC15790016462A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5C4ACD1EBC15790016462A /* BingImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4ACE1EBC15790016462A /* BingImageTests.m */,
+				AB5C4AD01EBC15790016462A /* Info.plist */,
+			);
+			path = BingImageTests;
+			sourceTree = "<group>";
+		};
+		AB5C4AD81EBC15790016462A /* BingImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AD91EBC15790016462A /* BingImageUITests.m */,
+				AB5C4ADB1EBC15790016462A /* Info.plist */,
+			);
+			path = BingImageUITests;
+			sourceTree = "<group>";
+		};
+		AB5C4AE71EBC38470016462A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AFB1EBC74780016462A /* BICollectionViewLayout.h */,
+				AB5C4AFC1EBC74780016462A /* BICollectionViewLayout.m */,
+				AB5C4B011EBCA1850016462A /* BIDetailViewController.h */,
+				AB5C4B021EBCA1850016462A /* BIDetailViewController.m */,
+				AB5C4B041EBCA2B00016462A /* BINavigationController.h */,
+				AB5C4B051EBCA2B00016462A /* BINavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB5C4AE81EBC38470016462A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AFE1EBC79560016462A /* BICollectionViewCell.h */,
+				AB5C4AFF1EBC79560016462A /* BICollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB5C4AE91EBC38470016462A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AF51EBC449B0016462A /* BIImageModel.h */,
+				AB5C4AF61EBC449B0016462A /* BIImageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB5C4AEA1EBC38470016462A /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AF21EBC404A0016462A /* BIDataBase.h */,
+				AB5C4AF31EBC404A0016462A /* BIDataBase.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		AB5C4AEB1EBC38470016462A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C4AEC1EBC38D80016462A /* BINetWorkRequest.h */,
+				AB5C4AED1EBC38D80016462A /* BINetWorkRequest.m */,
+				AB5C4AEF1EBC3DB40016462A /* BIDataServer.h */,
+				AB5C4AF01EBC3DB40016462A /* BIDataServer.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		F4A69148C922425BDDE856B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37B2ACA981591C22DD358890 /* libPods-BingImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5C4AB01EBC15790016462A /* BingImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C4ADE1EBC15790016462A /* Build configuration list for PBXNativeTarget "BingImage" */;
+			buildPhases = (
+				A3615678A21E3CD32D474CCD /* [CP] Check Pods Manifest.lock */,
+				AB5C4AAD1EBC15790016462A /* Sources */,
+				AB5C4AAE1EBC15790016462A /* Frameworks */,
+				AB5C4AAF1EBC15790016462A /* Resources */,
+				0FD1F2373AD65D24C35E9351 /* [CP] Embed Pods Frameworks */,
+				E132DE029055160E88EE4297 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingImage;
+			productName = BingImage;
+			productReference = AB5C4AB11EBC15790016462A /* BingImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5C4AC91EBC15790016462A /* BingImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C4AE11EBC15790016462A /* Build configuration list for PBXNativeTarget "BingImageTests" */;
+			buildPhases = (
+				AB5C4AC61EBC15790016462A /* Sources */,
+				AB5C4AC71EBC15790016462A /* Frameworks */,
+				AB5C4AC81EBC15790016462A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5C4ACC1EBC15790016462A /* PBXTargetDependency */,
+			);
+			name = BingImageTests;
+			productName = BingImageTests;
+			productReference = AB5C4ACA1EBC15790016462A /* BingImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5C4AD41EBC15790016462A /* BingImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C4AE41EBC15790016462A /* Build configuration list for PBXNativeTarget "BingImageUITests" */;
+			buildPhases = (
+				AB5C4AD11EBC15790016462A /* Sources */,
+				AB5C4AD21EBC15790016462A /* Frameworks */,
+				AB5C4AD31EBC15790016462A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5C4AD71EBC15790016462A /* PBXTargetDependency */,
+			);
+			name = BingImageUITests;
+			productName = BingImageUITests;
+			productReference = AB5C4AD51EBC15790016462A /* BingImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5C4AA91EBC15790016462A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张声扬";
+				TargetAttributes = {
+					AB5C4AB01EBC15790016462A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB5C4AC91EBC15790016462A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB5C4AB01EBC15790016462A;
+					};
+					AB5C4AD41EBC15790016462A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB5C4AB01EBC15790016462A;
+					};
+				};
+			};
+			buildConfigurationList = AB5C4AAC1EBC15790016462A /* Build configuration list for PBXProject "BingImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5C4AA81EBC15790016462A;
+			productRefGroup = AB5C4AB21EBC15790016462A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5C4AB01EBC15790016462A /* BingImage */,
+				AB5C4AC91EBC15790016462A /* BingImageTests */,
+				AB5C4AD41EBC15790016462A /* BingImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5C4AAF1EBC15790016462A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C4AC41EBC15790016462A /* LaunchScreen.storyboard in Resources */,
+				AB5C4AC11EBC15790016462A /* Assets.xcassets in Resources */,
+				AB5C4ABF1EBC15790016462A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C4AC81EBC15790016462A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C4AD31EBC15790016462A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD1F2373AD65D24C35E9351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingImage/Pods-BingImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3615678A21E3CD32D474CCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E132DE029055160E88EE4297 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingImage/Pods-BingImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5C4AAD1EBC15790016462A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C4ABC1EBC15790016462A /* ViewController.m in Sources */,
+				AB5C4B031EBCA1850016462A /* BIDetailViewController.m in Sources */,
+				AB5C4B061EBCA2B00016462A /* BINavigationController.m in Sources */,
+				AB5C4AB91EBC15790016462A /* AppDelegate.m in Sources */,
+				AB5C4AF11EBC3DB40016462A /* BIDataServer.m in Sources */,
+				AB5C4AFD1EBC74780016462A /* BICollectionViewLayout.m in Sources */,
+				AB5C4AB61EBC15790016462A /* main.m in Sources */,
+				AB5C4B001EBC79560016462A /* BICollectionViewCell.m in Sources */,
+				AB5C4AFA1EBC51330016462A /* BIGetBingDataServer.m in Sources */,
+				AB5C4AEE1EBC38D80016462A /* BINetWorkRequest.m in Sources */,
+				AB5C4AF41EBC404A0016462A /* BIDataBase.m in Sources */,
+				AB5C4AF71EBC449B0016462A /* BIImageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C4AC61EBC15790016462A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C4ACF1EBC15790016462A /* BingImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C4AD11EBC15790016462A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C4ADA1EBC15790016462A /* BingImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5C4ACC1EBC15790016462A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5C4AB01EBC15790016462A /* BingImage */;
+			targetProxy = AB5C4ACB1EBC15790016462A /* PBXContainerItemProxy */;
+		};
+		AB5C4AD71EBC15790016462A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5C4AB01EBC15790016462A /* BingImage */;
+			targetProxy = AB5C4AD61EBC15790016462A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5C4ABD1EBC15790016462A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5C4ABE1EBC15790016462A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB5C4AC21EBC15790016462A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5C4AC31EBC15790016462A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5C4ADC1EBC15790016462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB5C4ADD1EBC15790016462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5C4ADF1EBC15790016462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FA8E7FF2C6443147CAF2B4 /* Pods-BingImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangzhangshengyang.www.BingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB5C4AE01EBC15790016462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49045C26DEE2EF77CA337C60 /* Pods-BingImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangzhangshengyang.www.BingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB5C4AE21EBC15790016462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BingImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangzhangshengyang.www.BingImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingImage.app/BingImage";
+			};
+			name = Debug;
+		};
+		AB5C4AE31EBC15790016462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BingImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangzhangshengyang.www.BingImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingImage.app/BingImage";
+			};
+			name = Release;
+		};
+		AB5C4AE51EBC15790016462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BingImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangzhangshengyang.www.BingImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BingImage;
+			};
+			name = Debug;
+		};
+		AB5C4AE61EBC15790016462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BingImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangzhangshengyang.www.BingImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BingImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5C4AAC1EBC15790016462A /* Build configuration list for PBXProject "BingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C4ADC1EBC15790016462A /* Debug */,
+				AB5C4ADD1EBC15790016462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5C4ADE1EBC15790016462A /* Build configuration list for PBXNativeTarget "BingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C4ADF1EBC15790016462A /* Debug */,
+				AB5C4AE01EBC15790016462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5C4AE11EBC15790016462A /* Build configuration list for PBXNativeTarget "BingImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C4AE21EBC15790016462A /* Debug */,
+				AB5C4AE31EBC15790016462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5C4AE41EBC15790016462A /* Build configuration list for PBXNativeTarget "BingImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C4AE51EBC15790016462A /* Debug */,
+				AB5C4AE61EBC15790016462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5C4AA91EBC15790016462A /* Project object */;
+}
